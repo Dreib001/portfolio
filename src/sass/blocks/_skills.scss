@@ -1,0 +1,111 @@
+.skills{ 
+    color: silver;
+    padding-top: 120px;
+    background-color: #092c3e;
+    &__items{
+        margin-top: 60px;
+        padding: 0 10px;
+        display: grid;
+        grid-template: repeat(2, minmax(270px, auto)) / repeat(4, 270px);
+        grid-auto-rows: minmax(270px, auto);
+        gap: 13px;
+        background-color: #0f425c;
+
+    }
+    &__item{
+        &-html5{
+            border: 1px solid #F24822FF;
+            padding: 30px 30px 25px 30px;
+            color: #F24822FF;
+        }
+        &-css3{
+            border: 1px solid #485FB5FF;
+            padding: 30px 30px 25px 30px;
+            color: #485FB5FF;
+        }
+        &-js{
+            border: 1px solid yellow;
+            padding: 30px 30px 25px 30px;
+            color: yellow;
+        }
+        &-jquery{
+            border: 1px solid #18A0FBFF;
+            padding: 30px 30px 25px 30px;
+            color: #18A0FBFF;
+        }
+        &-react{
+            border: 1px solid #18A0FBFF;
+            padding: 30px 30px 25px 30px;
+            color: #18A0FBFF;
+        }
+        &-node{
+            border: 1px solid #4D9842FF;
+            padding: 30px 30px 25px 30px;
+            color: #4D9842FF;
+        }
+        &-mongo{
+            border: 1px solid #442D22FF;
+            padding: 30px 30px 25px 30px;
+            color:  #442D22FF;
+        }
+        &-figma{
+            border: 1px solid #F24E1EFF;
+            padding: 30px 30px 25px 30px;
+            color: #F24E1EFF;
+        }
+        &-img{
+            display: flex;
+            align-items: center;
+            min-height: 65px;
+        }
+        h3{
+            margin-top: 20px;
+            margin-bottom: 0; 
+        }
+        p{ 
+            margin-top: 15px;
+            margin-bottom: 0;
+            font-size: 12px;
+            line-height: 18px; 
+            
+        }
+    }
+    &__ratings {
+        margin-top: 120px;
+        display: grid;
+        grid-template: repeat(2, minmax(70px, auto)) / repeat(3, 350px);
+        column-gap: 45px;
+        row-gap: 35px;
+        &-item {
+            display: grid;
+            grid-template: minmax(21px, auto) 14px / 200px 35px;
+            justify-content: space-between;
+            align-content: space-between;
+        }
+        &-title {
+            position: relative;
+            padding: 2px 0 0 13px;
+            color: #E8E4DE;
+
+            @include before_circle;
+        }
+        &-counter {
+            font-size: 14px;
+            line-height: 21px;
+            color: aqua;
+        }
+        &-line {
+            width: 350px;
+            height: 14px;
+            background-color: #E8E4DE;
+            border-radius: 4px;
+            grid-column: 1 / 3;
+            span {
+                display: block;
+                height: 100%;
+                background-color: #6201FF;
+                border-radius: 4px;
+            }
+        }
+    }
+}

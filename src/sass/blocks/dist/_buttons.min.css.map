@@ -1,0 +1,1 @@
+{"version":3,"sources":["_buttons.scss"],"names":[],"mappings":"AAAA,KACE,OAAQ,KACR,WAAY,QACZ,WAAY,EAAI,IAAI,IAAI,gBACxB,QAAS,KAAK","file":"_buttons.min.css","sourcesContent":[".btn{\r\n    height: 45px;   \r\n    background: #FF01E6;\r\n    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);\r\n    padding: 12px 25px;\r\n}"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["_resume.scss"],"names":[],"mappings":"AAAA,QACE,YAAa,MAOf,kBAJA,eACE,WAAY","file":"_resume.min.css","sourcesContent":[".resume{\r\n    padding-top: 120px;\r\n    &__title{\r\n        text-align: center;\r\n    }\r\n    &__subtitle{\r\n        text-align: center;\r\n    }\r\n}"]}
